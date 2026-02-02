@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"description": {
+			"text": "You have installed the map!",
+			"color": "gold"
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:written_book"
+		},
+		"show_toast": false,
+		"title": {
+			"text": "Map",
+			"color": "yellow",
+			"bold": true
+		},
+		"hidden": false
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": true
+}
