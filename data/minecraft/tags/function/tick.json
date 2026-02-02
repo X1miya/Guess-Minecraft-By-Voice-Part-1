@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "minecraft:locker",
         "x1miya:x1miya/main"
     ]
 }

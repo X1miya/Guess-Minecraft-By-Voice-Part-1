@@ -1,36 +1,42 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:player_head",
-			"components": {
-				"minecraft:profile": {
-					"name": "Qweezik"
-				}
-			},
-			"count": 1
-		},
-		"title": {
-			"text": "Builder",
-			"color": "gold",
-			"bold": true
-		},
-		"description": {
-			"text": "Qweezik",
-			"color": "yellow"
-		},
-		"show_toast": false,
-		"announce_to_chat": false,
-		"hidden": false
-	},
-	"parent": "globe:maximischebuilder",
-	"criteria": {
-		"tick": {
-			"trigger": "minecraft:tick"
-		}
-	},
-	"requirements": [
-		[
-			"tick"
-		]
-	]
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [1, 2, 3, 4],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTcwNzA3MjgwMTU0MywKICAicHJvZmlsZUlkIiA6ICI4YjgyM2E1YmU0Njk0YjhiOTE0NmE5MWRhMjk4ZTViNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXBoaXRpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84M2I1MmQwOWY2MmQ0NTZiMjliNmFlNjM1NDI2MmViNTZjNTRmMGViZWJiZGVmNWQxNDVjNDlkZDU3NDE4M2MzIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "Qweezik",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Главный Билдер Первой Версии Карты",
+      "color": "yellow"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "globe:builders",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
 }

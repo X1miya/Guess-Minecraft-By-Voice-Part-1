@@ -10,19 +10,20 @@
 			"count": 1
 		},
 		"title": {
-			"text": "Builder",
+			"text": "Maximische",
 			"color": "gold",
 			"bold": true
 		},
 		"description": {
-			"text": "Maximische",
+			"text": "Билдер обновление карты",
 			"color": "yellow"
 		},
+		"frame":"challenge",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
 	},
-	"parent": "globe:x1miya",
+	"parent": "globe:qweezikbuilder",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

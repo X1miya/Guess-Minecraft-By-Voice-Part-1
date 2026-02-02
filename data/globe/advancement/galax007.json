@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [1, 2, 3, 4],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDM3MDY0NjI0NywKICAicHJvZmlsZUlkIiA6ICI5NDczNjdlMTE1N2Q0ZjQzYTZmYmY0MGQwOTY3MjY3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ3aW5uZXIzMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lYWIzMjVhM2FjMmQ5MjBmMjVjNWQ3MjM3OTI4ODU2ZTdiNTE4OGMxNmU4N2Y5ZmQ5ZDMzODIwYjE0NzY4YzkiCiAgICB9CiAgfQp9"
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "GALaX007",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Тестер",
+      "color": "yellow"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "globe:testers",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

@@ -10,19 +10,19 @@
 			"count": 1
 		},
 		"title": {
-			"text": "Tester",
+			"text": "CAlllTAN",
 			"color": "gold",
 			"bold": true
 		},
 		"description": {
-			"text": "CAlllTAN",
+			"text": "Тестер",
 			"color": "yellow"
 		},
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
 	},
-	"parent": "globe:galax007protester",
+	"parent": "globe:galax007",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

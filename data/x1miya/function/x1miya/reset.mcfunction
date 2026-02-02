@@ -6,6 +6,6 @@ team join X1miyaStudio X1miya
 scoreboard objectives add level dummy
 scoreboard players set @a level 0
 
-tp @a -650 -15 -2552 -90 0
+tp @a[team=!X1miyaStudio] -650 -15 -2552 -90 0
 spawnpoint -650 -15 -2552 -90
 setworldspawn -650 -15 -2552 -90

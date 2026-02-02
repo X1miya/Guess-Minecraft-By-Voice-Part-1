@@ -10,19 +10,20 @@
 			"count": 1
 		},
 		"title": {
-			"text": "Resource Pack Maker",
+			"text": "X1miya",
 			"color": "gold",
 			"bold": true
 		},
 		"description": {
-			"text": "X1miya",
+			"text": "Главный Создателей Ресурспака",
 			"color": "yellow"
 		},
+		"frame":"challenge",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
 	},
-	"parent": "globe:x1miya",
+	"parent": "globe:rpmaker",
 	"criteria": {
 		"tick": {
 			"trigger": "minecraft:tick"

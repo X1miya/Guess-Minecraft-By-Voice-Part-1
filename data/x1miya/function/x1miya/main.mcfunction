@@ -13,5 +13,5 @@ execute as @e[type=minecraft:interaction,tag=voice] on target run function x1miy
 execute as @e[type=minecraft:interaction,tag=voice] run data remove entity @s interaction
 
 #fisrtlevel
-title @a[x=-620,y=5,z=-2552,distance=..2] actionbar ["","Нажмите ",{"color":"#ffaa00","bold":true,"text":"ПКМ"},", чтобы взаимодействовать с проигрывателем"]
+execute at @e[tag=voice] run title @a[distance=..2] actionbar ["","Нажмите ",{"color":"#ffaa00","bold":true,"text":"ПКМ"},", чтобы взаимодействовать с проигрывателем"]
 title @a[x=-614,y=5,z=-2552,distance=..2] actionbar ["","Нажмите ",{"color":"#ffaa00","bold":true,"text":"ПКМ"},", чтобы взаимодействовать с текстом"]

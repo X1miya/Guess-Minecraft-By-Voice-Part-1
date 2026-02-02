@@ -1,4 +1,7 @@
 scoreboard players add @a level 1
+
+stopsound @a
+
 title @a title "Ƿ"
 title @a[scores={level=2}] subtitle "˱"
 title @a[scores={level=3}] subtitle "˲"

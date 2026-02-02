@@ -8,8 +8,8 @@
 		"announce_to_chat": false,
 		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
 		"description": {
-			"text": "You have installed the map!",
-			"color": "gold"
+			"text": "Часть 1",
+			"color": "yellow"
 		},
 		"icon": {
 			"count": 1,
@@ -17,8 +17,8 @@
 		},
 		"show_toast": false,
 		"title": {
-			"text": "Map",
-			"color": "yellow",
+			"text": "Угадай Майнкрафтера По Голосу",
+			"color": "gold",
 			"bold": true
 		},
 		"hidden": false

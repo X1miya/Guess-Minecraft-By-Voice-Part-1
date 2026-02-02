@@ -1,0 +1,1 @@
+give @s snow_golem_spawn_egg[entity_data={id:"minecraft:marker",Tags:["spawn_lock"]},item_name='{"text":"Установщик Interaction","color":"gold","italic":false}'] 1
