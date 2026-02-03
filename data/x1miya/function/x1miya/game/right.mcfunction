@@ -1,4 +1,4 @@
-scoreboard players add @a level 1
+scoreboard players add #player level 1
 
 stopsound @a
 
