@@ -12,5 +12,5 @@ scoreboard objectives setdisplay list level
 scoreboard players set #player level 0
 
 tp @a[team=!X1miyaStudio] -650 -15 -2552 -90 0
-spawnpoint @a -650 -15 -2552 -90
-setworldspawn -650 -15 -2552 -90
+spawnpoint @a -650 -15 -2552 -90 0
+setworldspawn -650 -15 -2552 -90 0

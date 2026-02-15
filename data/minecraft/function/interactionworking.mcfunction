@@ -4,9 +4,9 @@
  #
  # Created by X1miya.
 ##
-execute at @e[type=interaction,tag=Lock] run particle minecraft:dust{color:[0,0,0],scale:0.5} ~ ~ ~ 0.5 0.5 0.5 0.01 10 force @a[distance=..10]
-execute at @e[type=interaction,tag=right] run particle minecraft:dust{color:[0,1,0],scale:0.5} ~ ~ ~ 0.5 0.5 0.5 0.01 10 force @a[distance=..10]
-execute at @e[type=interaction,tag=notright] run particle minecraft:dust{color:[1,0,0],scale:0.5} ~ ~ ~ 0.5 0.5 0.5 0.01 10 force @a[distance=..10]
+execute at @e[type=interaction,tag=Lock] run particle minecraft:dust{color:[0,0,0],scale:0.5} ~ ~0.5 ~ 0.5 0.2 0.5 0 10 force @a[distance=..10,team=X1miyaStudio]
+execute at @e[type=interaction,tag=right] run particle minecraft:dust{color:[0,1,0],scale:0.5} ~ ~0.5 ~ 0.5 0.2 0.5 0 10 force @a[distance=..10,team=X1miyaStudio]
+execute at @e[type=interaction,tag=notright] run particle minecraft:dust{color:[1,0,0],scale:0.5} ~ ~0.5 ~ 0.5 0.2 0.5 0 10 force @a[distance=..10,team=X1miyaStudio]
 ##
 execute at @e[type=marker,tag=spawn_lock] run summon interaction ~ ~-0.5 ~ {Tags:["Lock"],width:1.1f,height:1.5f}
 kill @e[type=marker,tag=spawn_lock]

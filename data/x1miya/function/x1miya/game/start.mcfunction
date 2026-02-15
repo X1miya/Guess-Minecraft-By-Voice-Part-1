@@ -1,7 +1,7 @@
 setblock -647 -14 -2552 minecraft:warped_button[powered=false,facing=west,face=wall]
 
 tp @a -625 5 -2552 -90 0
-spawnpoint @a -625 5 -2552 -90
+spawnpoint @a -625 5 -2552 -90 0
 
 gamemode adventure @a[team=!X1miyaStudio]
 

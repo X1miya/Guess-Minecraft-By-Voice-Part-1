@@ -16,3 +16,6 @@ execute as @e[type=minecraft:interaction,tag=voice] run data remove entity @s in
 execute at @e[tag=voice] run title @a[distance=..2] actionbar ["","Нажмите ",{"color":"#ffaa00","bold":true,"text":"ПКМ"},", чтобы взаимодействовать с проигрывателем"]
 execute at @e[tag=right] run title @a[distance=..2] actionbar ["","Нажмите ",{"color":"#ffaa00","bold":true,"text":"ПКМ"},", чтобы взаимодействовать с текстом"]
 execute at @e[tag=notright] run title @a[distance=..2] actionbar ["","Нажмите ",{"color":"#ffaa00","bold":true,"text":"ПКМ"},", чтобы взаимодействовать с текстом"]
+
+#Conenct fantom player with real player
+scoreboard players operation #player level = @a level
