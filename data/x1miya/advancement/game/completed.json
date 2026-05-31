@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:nether_star"
+		},
+		"title": {
+			"text": "Настоящий фанат",
+			"color": "aqua",
+			"bold": true
+		},
+		"description": {
+			"text": "Пройдите всю карту и угадайте всех майнкрафтеров!",
+			"color": "gray"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "x1miya:game/halfway",
+	"criteria": {
+		"manual": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

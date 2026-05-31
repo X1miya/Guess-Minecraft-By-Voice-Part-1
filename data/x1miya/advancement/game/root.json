@@ -1,0 +1,25 @@
+{
+	"display": {
+		"background": "minecraft:block/cyan_concrete",
+		"icon": {
+			"id": "minecraft:jukebox"
+		},
+		"title": {
+			"text": "Угадай Майнкрафтера",
+			"color": "aqua",
+			"bold": true
+		},
+		"description": {
+			"text": "Начало игры",
+			"color": "gray"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

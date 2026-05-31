@@ -1,1 +1,3 @@
+tellraw @a ["",{"text":"[ПРАВИЛА]\n","color":"red","bold":true},{"text":"1. Играйте с включенным звуком (желательно в наушниках).\n","color":"white"},{"text":"2. Не используйте читы и сторонние моды.\n","color":"white"},{"text":"3. Играйте в режиме Приключения.\n","color":"white"}]
 execute at @a run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 5 1
+setblock -650 -14 -2555 minecraft:warped_button[face=wall,facing=south,powered=false]

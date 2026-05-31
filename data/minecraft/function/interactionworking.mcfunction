@@ -14,11 +14,11 @@ execute at @e[type=marker,tag=spawn_right] run summon interaction ~ ~ ~ {Tags:["
 kill @e[type=marker,tag=spawn_right]
 execute at @e[type=marker,tag=spawn_notright] run summon interaction ~ ~ ~ {Tags:["notright"],width:1.0f,height:1.0f}
 kill @e[type=marker,tag=spawn_notright]
-execute at @e[type=marker,tag=spawn_voice] run summon interaction ~ ~ ~ {Tags:["voice"],width:1.0f,height:1.0f}
+execute at @e[type=marker,tag=spawn_voice] run summon interaction ~ ~ ~ {Tags:["voice"],width:1.2f,height:1.2f}
 kill @e[type=marker,tag=spawn_voice]
 ##
 execute as @e[type=minecraft:interaction,tag=Lock] on target run title @s title {"text": "Нельзя!","color":"dark_red","bold":true}
-execute as @e[type=minecraft:interaction,tag=Lock] on target run execute at @s run playsound block.note_block.didgeridoo master @s ~ ~ ~ 5
+execute as @e[type=minecraft:interaction,tag=Lock] on target run execute at @s run playsound minecraft:block.note_block.didgeridoo master @s ~ ~ ~ 5
 execute as @e[type=minecraft:interaction,tag=Lock] run data remove entity @s interaction
 ##
 # Исправление поворота на основе тегов

@@ -1,3 +1,3 @@
 title @a title ["",{"text":"1","bold":true,"obfuscated":true,"color":"dark_red"},{"text":"\u0410\u0432\u0442\u043e\u0440 \u0418\u0434\u0435\u0438","bold":true,"color":"dark_green"},{"text":"1","bold":true,"obfuscated":true,"color":"dark_red"}]
 title @a subtitle ["",{"text":"1","obfuscated":true,"color":"dark_green"},{"text":"Overl1te","color":"dark_red"},{"text":"1","obfuscated":true,"color":"dark_green"}]
-schedule function main:titles/coders 5s
+schedule function x1miya:x1miya/basic/titles/coders 5s

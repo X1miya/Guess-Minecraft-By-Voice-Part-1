@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "minecraft:interactionworking",
         "x1miya:x1miya/main"
     ]
 }

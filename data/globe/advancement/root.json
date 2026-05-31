@@ -6,7 +6,7 @@
 	},
 	"display": {
 		"announce_to_chat": false,
-		"background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+		"background": "minecraft:block/lime_concrete",
 		"description": {
 			"text": "Часть 1",
 			"color": "yellow"
@@ -17,7 +17,7 @@
 		},
 		"show_toast": false,
 		"title": {
-			"text": "Угадай Майнкрафтера По Голосу",
+			"text": "Авторы карты",
 			"color": "gold",
 			"bold": true
 		},
