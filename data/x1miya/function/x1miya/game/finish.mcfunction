@@ -14,7 +14,7 @@ spawnpoint @a -408 -14 -2483 -90 0
 advancement grant @a only x1miya:game/completed
 
 # Звук победы
-execute at @a run playsound minecraft:ui.toast.challenge_complete master @a ~ ~ ~ 1 1
+execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1 1
 
 # Даем доступ к триггеру (включаем его)
 scoreboard players enable @a rate

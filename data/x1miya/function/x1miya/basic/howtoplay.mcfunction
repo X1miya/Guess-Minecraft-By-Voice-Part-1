@@ -1,3 +1,3 @@
 tellraw @a ["",{"text":"[КАК ИГРАТЬ]\n","color":"gold","bold":true},{"text":"1. Нажмите ПКМ по центру (там где надпись уровня), чтобы услышать голос ютубера.\n","color":"yellow"},{"text":"2. Выберите правильную голову и кликните по ней ПКМ.\n","color":"yellow"},{"text":"3. Если угадаете — перейдете на следующий уровень!\n","color":"yellow"}]
-execute at @a run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 5 1
+execute as @a at @s run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 5 1
 setblock -650 -14 -2549 minecraft:warped_button[face=wall,facing=north,powered=false]

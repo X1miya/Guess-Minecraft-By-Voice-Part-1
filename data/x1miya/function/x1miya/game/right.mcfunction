@@ -96,10 +96,10 @@ spawnpoint @a[scores={level=29}] -465 5 -2482 -90 0
 tp @a[scores={level=30}] -445 5 -2482 -90 0
 spawnpoint @a[scores={level=30}] -445 5 -2482 -90 0
 
-execute at @a run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 3
+execute as @a at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 3
 
 # Завершение игры
-execute as @a[scores={level=31..}] run function x1miya:x1miya/game/finish
+execute if score #player level matches 31.. run function x1miya:x1miya/game/finish
 
 # Выдача достижений
 execute as @a[scores={level=2}] run advancement grant @s only x1miya:game/first_guess

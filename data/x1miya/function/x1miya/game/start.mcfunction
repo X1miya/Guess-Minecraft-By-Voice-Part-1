@@ -9,7 +9,7 @@ title @a title "Ƕ"
 title @a subtitle "Ⴌ"
 title @a actionbar "˰"
 
-execute at @a run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 10 1
+execute as @a at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 10 1
 
 effect give @a[team=!X1miyaStudio] slowness 5 255
 effect give @a[team=!X1miyaStudio] blindness 5 255
