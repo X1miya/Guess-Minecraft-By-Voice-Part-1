@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye",
+      "count": 1
+    },
+    "title": {
+      "text": "Шестое чувство",
+      "color": "light_purple",
+      "bold": true
+    },
+    "description": {
+      "text": "Угадайте ютубера на уровне, даже не включив проигрыватель!",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/first_radio"
+}

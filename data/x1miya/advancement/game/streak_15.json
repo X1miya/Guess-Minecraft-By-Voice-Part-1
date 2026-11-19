@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "count": 1
+    },
+    "title": {
+      "text": "Абсолютный слух",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Угадайте 15 ютуберов подряд без единой ошибки.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/streak_5"
+}

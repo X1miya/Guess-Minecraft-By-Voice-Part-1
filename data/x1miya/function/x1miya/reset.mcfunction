@@ -21,3 +21,7 @@ setworldspawn -650 -15 -2552 -90 0
 #kill @e[type=interaction,tag=right]
 #kill @e[type=interaction,tag=notright]
 scoreboard objectives add rate trigger
+scoreboard objectives add streak dummy
+scoreboard objectives add mistakes dummy
+scoreboard objectives add replays dummy
+scoreboard objectives add lvl_replays dummy

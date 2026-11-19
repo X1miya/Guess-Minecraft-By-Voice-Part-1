@@ -1,25 +1,26 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:barrier"
-		},
-		"title": {
-			"text": "На ошибках учатся",
-			"color": "red"
-		},
-		"description": {
-			"text": "Совершите первую ошибку.",
-			"color": "gray"
-		},
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"parent": "x1miya:game/root",
-	"criteria": {
-		"manual": {
-			"trigger": "minecraft:impossible"
-		}
-	}
+  "display": {
+    "icon": {
+      "id": "minecraft:barrier",
+      "count": 1
+    },
+    "title": {
+      "text": "На ошибках учатся",
+      "color": "red"
+    },
+    "description": {
+      "text": "Совершите свою первую ошибку.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/root"
 }

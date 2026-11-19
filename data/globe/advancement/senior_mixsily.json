@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            123544184,
+            -2085402698,
+            -1510352757,
+            -1450262829
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5NTA5NjgyMjk2MSwKICAicHJvZmlsZUlkIiA6ICIwNzVkMjI3ODgzYjM0N2I2YTVmOWQ4OGJhOThlYmVkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZW5pb3JfTWl4c2lseSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81YWIwNWIxY2Q3YmFhNzE4NTliY2NjZDNlYjEzMGRlMTYyZDBlMGVlZjkyZTU0MzhiMGI2YzVlM2I2MTdlYzViIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhYWZjNDUxYWEyY2MzNGRkYzcyNjUyMTE2Nzg1ODVjMGVmNGRhNGQzMmVkYjc1ZWNlYzFiZDhiNTQwODM4MSIKICAgIH0KICB9Cn0="
+            }
+          ]
+        }
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "Senior_Mixsily",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Билдер обновления карты (V3.0)",
+      "color": "yellow"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "parent": "globe:qweezikbuilder"
+}

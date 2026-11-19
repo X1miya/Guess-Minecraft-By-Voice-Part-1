@@ -4,7 +4,12 @@
       "id": "minecraft:player_head",
       "components": {
         "minecraft:profile": {
-          "id": [100, 200, 300, 400],
+          "id": [
+            1,
+            2,
+            3,
+            4
+          ],
           "properties": [
             {
               "name": "textures",
@@ -12,23 +17,23 @@
             }
           ]
         }
-      }
+      },
+      "count": 1
     },
     "title": {
-      "text": "Ресурспак Мейкеры",
-      "color": "gold",
+      "text": "Ресурспак · VisualLab",
+      "color": "aqua",
       "bold": true
     },
     "description": {
-      "text": "",
-      "color": "yellow"
+      "text": "3D-проигрыватель, озвучка, шрифты и графика",
+      "color": "gray"
     },
     "frame": "goal",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "globe:x1miyastudio",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"
@@ -38,5 +43,6 @@
     [
       "tick"
     ]
-  ]
+  ],
+  "parent": "globe:x1miyastudio"
 }

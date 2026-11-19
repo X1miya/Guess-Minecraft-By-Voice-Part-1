@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot",
+      "count": 1
+    },
+    "title": {
+      "text": "Честный критик",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Пройдите карту и оцените её в финальном лобби.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/community"
+}

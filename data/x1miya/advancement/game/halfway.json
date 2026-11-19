@@ -1,25 +1,26 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:spyglass"
-		},
-		"title": {
-			"text": "Экватор",
-			"color": "gold"
-		},
-		"description": {
-			"text": "Дойдите до 15-го уровня.",
-			"color": "gray"
-		},
-		"frame": "goal",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"parent": "x1miya:game/first_guess",
-	"criteria": {
-		"manual": {
-			"trigger": "minecraft:impossible"
-		}
-	}
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass",
+      "count": 1
+    },
+    "title": {
+      "text": "Экватор",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Дойдите до середины карты — 15-го уровня.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/row1_clear"
 }

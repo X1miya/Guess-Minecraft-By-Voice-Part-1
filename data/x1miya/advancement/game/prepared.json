@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book",
+      "count": 1
+    },
+    "title": {
+      "text": "По всем правилам",
+      "color": "green"
+    },
+    "description": {
+      "text": "Прочитайте правила или инструкцию в стартовом лобби.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/root"
+}

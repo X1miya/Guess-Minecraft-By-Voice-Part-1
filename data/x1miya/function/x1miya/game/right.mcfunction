@@ -98,9 +98,17 @@ spawnpoint @a[scores={level=30}] -445 5 -2482 -90 0
 
 execute as @a at @s run playsound minecraft:block.note_block.pling master @s ~ ~ ~ 3
 
+# Статистика и выдача достижений
+scoreboard players add #player streak 1
+execute if score #player lvl_replays matches 0 run advancement grant @a only x1miya:game/intuition
+scoreboard players set #player lvl_replays 0
+
+execute as @a[scores={level=2}] run advancement grant @s only x1miya:game/first_guess
+execute as @a[scores={level=11}] run advancement grant @s only x1miya:game/row1_clear
+execute as @a[scores={level=15}] run advancement grant @s only x1miya:game/halfway
+execute as @a[scores={level=21}] run advancement grant @s only x1miya:game/row2_clear
+execute if score #player streak matches 5.. run advancement grant @a only x1miya:game/streak_5
+execute if score #player streak matches 15.. run advancement grant @a only x1miya:game/streak_15
+
 # Завершение игры
 execute if score #player level matches 31.. run function x1miya:x1miya/game/finish
-
-# Выдача достижений
-execute as @a[scores={level=2}] run advancement grant @s only x1miya:game/first_guess
-execute as @a[scores={level=15}] run advancement grant @s only x1miya:game/halfway

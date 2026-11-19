@@ -4,7 +4,12 @@
       "id": "minecraft:player_head",
       "components": {
         "minecraft:profile": {
-          "id": [1, 2, 3, 4],
+          "id": [
+            1,
+            2,
+            3,
+            4
+          ],
           "properties": [
             {
               "name": "textures",
@@ -12,7 +17,8 @@
             }
           ]
         }
-      }
+      },
+      "count": 1
     },
     "title": {
       "text": "X1miya",
@@ -20,7 +26,7 @@
       "bold": true
     },
     "description": {
-      "text": "Главный Кодер, Ведущий Разработчик",
+      "text": "Основатель студии, главный кодер и ведущий разработчик",
       "color": "yellow"
     },
     "frame": "challenge",
@@ -28,7 +34,6 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "globe:coders",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"
@@ -38,5 +43,6 @@
     [
       "tick"
     ]
-  ]
+  ],
+  "parent": "globe:coders"
 }

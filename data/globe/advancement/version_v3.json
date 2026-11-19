@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_13",
+      "components": {
+        "minecraft:item_model": "x1miya:radio"
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "Ремастер V3.0",
+      "color": "light_purple",
+      "bold": true
+    },
+    "description": {
+      "text": "Minecraft 1.21.11 · 30 уровней · 3D-радио · 90 уникальных ру-ютуберов",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "parent": "globe:x1miyastudio"
+}

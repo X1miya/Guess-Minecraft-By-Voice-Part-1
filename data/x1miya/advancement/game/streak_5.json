@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald",
+      "count": 1
+    },
+    "title": {
+      "text": "Острый слух",
+      "color": "green"
+    },
+    "description": {
+      "text": "Угадайте 5 ютуберов подряд без единой ошибки.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/first_guess"
+}

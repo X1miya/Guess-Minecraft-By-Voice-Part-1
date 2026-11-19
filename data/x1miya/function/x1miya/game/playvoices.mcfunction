@@ -32,3 +32,9 @@ execute as @a[scores={level=27}] at @s run playsound minecraft:my_sounds.naicikb
 execute as @a[scores={level=28}] at @s run playsound minecraft:my_sounds.darkplay master @a ~ ~ ~ 10 1
 execute as @a[scores={level=29}] at @s run playsound minecraft:my_sounds.freeze master @a ~ ~ ~ 10 1
 execute as @a[scores={level=30}] at @s run playsound minecraft:my_sounds.lolotrack master @a ~ ~ ~ 10 1
+
+# Статистика и достижения 3D-проигрывателя
+scoreboard players add #player replays 1
+scoreboard players add #player lvl_replays 1
+advancement grant @a only x1miya:game/first_radio
+execute if score #player replays matches 50.. run advancement grant @a only x1miya:game/music_lover

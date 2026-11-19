@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell",
+      "count": 1
+    },
+    "title": {
+      "text": "На связи со студией",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Откройте список социальных сетей X1miyaStudio.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/prepared"
+}

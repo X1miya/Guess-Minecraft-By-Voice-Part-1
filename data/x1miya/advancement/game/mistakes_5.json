@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull",
+      "count": 1
+    },
+    "title": {
+      "text": "Трудновато, да?",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "Совершите 5 ошибок за прохождение. Главное — не сдаваться!",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/mistake"
+}

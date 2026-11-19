@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat",
+      "count": 1
+    },
+    "title": {
+      "text": "Первый ряд позади",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Пройдите первые 10 уровней карты (1–10).",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/first_guess"
+}

@@ -1,32 +1,32 @@
 {
-	"criteria": {
-		"tick": {
-			"trigger": "minecraft:tick"
-		}
-	},
-	"display": {
-		"announce_to_chat": false,
-		"background": "minecraft:block/lime_concrete",
-		"description": {
-			"text": "Часть 1",
-			"color": "yellow"
-		},
-		"icon": {
-			"count": 1,
-			"id": "minecraft:written_book"
-		},
-		"show_toast": false,
-		"title": {
-			"text": "Авторы карты",
-			"color": "gold",
-			"bold": true
-		},
-		"hidden": false
-	},
-	"requirements": [
-		[
-			"tick"
-		]
-	],
-	"sends_telemetry_event": true
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book",
+      "count": 1
+    },
+    "title": {
+      "text": "Авторы карты",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Угадай Майнкрафтера по голосу · Часть 1 (V3.0)",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:block/deepslate_tiles"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
 }

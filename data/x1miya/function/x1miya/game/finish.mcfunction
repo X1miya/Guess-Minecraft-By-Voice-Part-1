@@ -12,6 +12,7 @@ spawnpoint @a -408 -14 -2483 -90 0
 
 # Выдача достижения
 advancement grant @a only x1miya:game/completed
+execute if score #player mistakes matches 0 run advancement grant @a only x1miya:game/flawless
 
 # Звук победы
 execute as @a at @s run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1 1

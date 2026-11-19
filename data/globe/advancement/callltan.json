@@ -1,36 +1,48 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:player_head",
-			"components": {
-				"minecraft:profile": {
-					"name": "CAlllTAN"
-				}
-			},
-			"count": 1
-		},
-		"title": {
-			"text": "CAlllTAN",
-			"color": "gold",
-			"bold": true
-		},
-		"description": {
-			"text": "Тестер",
-			"color": "yellow"
-		},
-		"show_toast": false,
-		"announce_to_chat": false,
-		"hidden": false
-	},
-	"parent": "globe:galax007",
-	"criteria": {
-		"tick": {
-			"trigger": "minecraft:tick"
-		}
-	},
-	"requirements": [
-		[
-			"tick"
-		]
-	]
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1969728735,
+            -1860352757,
+            -1412195678,
+            723995287
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5NTA5NjgyMzI3NywKICAicHJvZmlsZUlkIiA6ICI4YTk4NTMyMTkxMWQ0NTBiYWJkMzlhYTIyYjI3NGE5NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDQWxsbFRBTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYmY1N2E1ZDNmMWIyODU0NDViZDFjOGExMjhlZjU3MDRkNWQwNWQxZTM0MmY5MzA3ZmE4NGNjZDBmYzAyZjRjIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "CAlllTAN",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Тестер карты и поиск багов",
+      "color": "yellow"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "parent": "globe:galax007"
 }

@@ -4,7 +4,12 @@
       "id": "minecraft:player_head",
       "components": {
         "minecraft:profile": {
-          "id": [1, 2, 3, 4],
+          "id": [
+            1,
+            2,
+            3,
+            4
+          ],
           "properties": [
             {
               "name": "textures",
@@ -12,23 +17,23 @@
             }
           ]
         }
-      }
+      },
+      "count": 1
     },
     "title": {
       "text": "X1miyaStudio",
-      "color": "gold",
+      "color": "#00FF88",
       "bold": true
     },
     "description": {
-      "text": "Команда Создателей",
-      "color": "yellow"
+      "text": "Студия разработки карт, датапаков и модов",
+      "color": "gray"
     },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "globe:root",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"
@@ -38,5 +43,6 @@
     [
       "tick"
     ]
-  ]
+  ],
+  "parent": "globe:root"
 }

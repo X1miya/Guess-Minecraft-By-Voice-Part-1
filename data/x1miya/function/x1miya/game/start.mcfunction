@@ -16,3 +16,13 @@ effect give @a[team=!X1miyaStudio] blindness 5 255
 
 scoreboard players set @a level 1
 scoreboard players set #player level 1
+
+# Инициализация статистики забега для достижений
+scoreboard objectives add streak dummy
+scoreboard objectives add mistakes dummy
+scoreboard objectives add replays dummy
+scoreboard objectives add lvl_replays dummy
+scoreboard players set #player streak 0
+scoreboard players set #player mistakes 0
+scoreboard players set #player replays 0
+scoreboard players set #player lvl_replays 0

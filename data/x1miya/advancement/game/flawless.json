@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying",
+      "count": 1
+    },
+    "title": {
+      "text": "Безупречный слух",
+      "color": "gold",
+      "bold": true
+    },
+    "description": {
+      "text": "Пройдите все 30 уровней без единой ошибки!",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/streak_15"
+}

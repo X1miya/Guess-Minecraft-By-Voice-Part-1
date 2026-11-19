@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:FF8C00,100:00FF88&height=180&section=header&text=%D0%A3%D0%B3%D0%B0%D0%B4%D0%B0%D0%B9%20%D0%BF%D0%BE%20%D0%93%D0%BE%D0%BB%D0%BE%D1%81%D1%83%201&fontSize=40&fontColor=ffffff&fontAlignY=40" width="100%" alt="Угадай Майнкрафтера по Голосу — Часть 1" />
+<img src="MEDIA/banner-ru.png" width="100%" alt="Угадай Майнкрафтера по голосу — Часть 1 (V3.0 Ремастер)" />
 
 <p align="center">
   <a href="README.md">
@@ -10,35 +10,45 @@
 </p>
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-00FF88?style=for-the-badge&logo=minecraft&logoColor=white)](https://www.minecraft.net/)
-[![Version](https://img.shields.io/badge/Version-V3.0-orange?style=for-the-badge)](https://github.com/X1miya/Guess-Minecraft-By-Voice-Part-1)
+[![Version](https://img.shields.io/badge/Version-V3.0_Ремастер-orange?style=for-the-badge)](https://github.com/X1miya/Guess-Minecraft-By-Voice-Part-1)
 [![Genre](https://img.shields.io/badge/Genre-Voice_Quiz-gold?style=for-the-badge)](https://github.com/X1miya/Guess-Minecraft-By-Voice-Part-1)
 [![Studio](https://img.shields.io/badge/Studio-X1miyaStudio-064E3B?style=for-the-badge)](https://t.me/X1miyaStudio)
 [![License](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-blue?style=for-the-badge)](LICENSE_RU.md)
 
 <p align="center">
-  <b>Интерактивная карта-викторина «Угадай Майнкрафтера по голосу» (Часть 1, V3.0).</b><br/>
-  Слушайте фрагменты аудиозаписей популярных ютуберов, определяйте голос и выбирайте правильный вариант!
+  <b>Полный ремастер легендарной карты «Угадай Майнкрафтера по голосу — Часть 1» (V3.0) под 1.21.11.</b><br/>
+  30 обновлённых залов под звёздным небом, кастомный 3D-проигрыватель, 90 уникальных ру-ютуберов со встроенными скинами и 17 достижений — без OptiFine!
 </p>
 
 </div>
 
 ---
 
-### 🎙 Особенности викторины
+### 🎙 Что нового в V3.0
 
-* **30 последовательных уровней** — прохождение 30 этапов в 3 ряда с общей синхронизацией прогресса (`#player level`), автоматической телепортацией и чекпоинтами.
-* **Кастомный звуковой движок** — нажмите ПКМ по центральному проигрывателю (`interaction` с тегом `voice`), чтобы прослушать реплику из ресурспака (`minecraft:my_sounds.*`).
-* **Интерактивные стенды и головы** — парящие головы (`item_display`), таблички с именами (`text_display`) и хитбоксы выбора (`right` / `notright`).
-* **Достижения и титры** — отдельная ветка достижений (`x1miya:game/*`: *Первые шаги*, *Экватор*, *На ошибках учатся*, *Настоящий фанат*) и вкладка авторов (`globe:*`).
-* **Система оценки карты** — интерактивный рейтинг от 1 до 5 звёзд в финальном лобби (`/trigger rate`) с уникальными ответами от студии.
+* **30 перестроенных залов под звёздным небом** — вместо 25 старых комнат теперь 30 восьмиугольных залов в 3 ряда с синхронизацией прогресса (`#player level`), чекпоинтами и новыми парящими Синим и Красным лобби над водой.
+* **Кастомный 3D-проигрыватель (`x1miya:radio`)** — объёмная 3D-модель ретро-радио через нативный компонент `minecraft:item_model` (`1.21.11`) вместо старой дубовой кнопки.
+* **90 уникальных ру-ютуберов (0 повторов)** — все 90 объёмных 3D-голов (`item_display`, scale 1.4x) со встроенными скинами Mojang прогружаются мгновенно даже офлайн (0 Стивов).
+* **17 достижений и обновлённая вкладка авторов** — прогресс по рядам, серии без ошибок (`5`, `15` и `Безупречный слух` 30/30), ачивки за 3D-радио, скрытая секретка «Шестое чувство» и титры команды (`X1miya`, `Qweezik`, `Senior_Mixsily`, `GALaX007`, `CAlllTAN`).
+* **Рейтинг и подготовка к релизу** — интерактивная оценка 1–5 звёзд (`/trigger rate`) в финальном лобби и команда `/function x1miya:prepare_release` для мгновенного сброса карты.
+
+---
+
+### 🖼️ Инфографики
+
+<p align="center">
+  <img src="MEDIA/how-ru.png" width="49%" alt="Как играть" />
+  <img src="MEDIA/features-ru.png" width="49%" alt="Что нового в V3.0" />
+</p>
 
 ---
 
 ### 🚀 Установка
 
-1. Поместите папку датапака в директорию `saves/<Мир>/datapacks/`.
-2. Установите и включите соответствующий ресурспак **Угадай Майнкрафтера Часть 1** (`minecraft:my_sounds.*` и кастомный шрифт).
-3. Выполните команду `/reload` (или перезайдите в мир), чтобы `x1miya:x1miya/reset` инициализировал команды и скорборды.
+1. Скачайте и распакуйте релизный архив **V3.0**.
+2. Скопируйте папку мира `УМПГЧ1 V3.0` в `.minecraft/saves/` *(в одиночной игре встроенный `resources.zip` подхватится автоматически!)*.
+3. Для игры с друзьями или ручной установки также скопируйте архив ресурспака в `.minecraft/resourcepacks/` и включите его в настройках.
+4. Запустите **Minecraft Java 1.21.11** (OptiFine и моды не требуются) и наслаждайтесь!
 
 ---
 
@@ -51,6 +61,6 @@
 [![YouTube](https://img.shields.io/badge/YouTube-@X1miya-red?style=flat-square&logo=youtube)](https://www.youtube.com/@X1miya)
 [![YouTube Studio](https://img.shields.io/badge/YouTube-@X1miyaStudio-red?style=flat-square&logo=youtube)](https://www.youtube.com/@X1miyaStudio)
 [![Telegram](https://img.shields.io/badge/Telegram-@X1miyaStudio-blue?style=flat-square&logo=telegram)](https://t.me/X1miyaStudio)
-[![Discord](https://img.shields.io/badge/Discord-Химическая_Гильдия-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/5XxTSGbHrz)
+[![Discord](https://img.shields.io/badge/Discord-X1miyaStudio-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/pwk6X8ecNJ)
 
 </div>

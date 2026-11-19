@@ -31,4 +31,5 @@ execute as @a[scores={rate=4}] run tellraw @a ["",{"text":"X1miyaStudio: ","colo
 execute as @a[scores={rate=5}] run tellraw @a ["",{"text":"X1miyaStudio: ","color":"dark_green","bold":true},{"text":"Огромное спасибо за высший балл! Вы супер! \u2764\ufe0f","color":"white","bold":false}]
 
 execute as @a[scores={rate=1..5}] at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1 1
+execute as @a[scores={rate=1..5}] run advancement grant @s only x1miya:game/critic
 execute as @a[scores={rate=1..5}] run scoreboard players reset @s rate

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_13",
+      "components": {
+        "minecraft:item_model": "x1miya:radio"
+      },
+      "count": 1
+    },
+    "title": {
+      "text": "Включай погромче!",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Впервые нажмите на новый 3D-проигрыватель.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "x1miya:game/root"
+}
