@@ -2,6 +2,7 @@
 # Spawns lobby signs, level signs, 3D radio models, floating heads with embedded skins, and click hitboxes
 
 # 1. Targeted cleanup (never deletes unrelated text_displays outside lobbies/levels)
+execute at @e[type=item_display,tag=head_display] run kill @e[type=text_display,distance=..2.2]
 kill @e[type=text_display,tag=level_sign]
 kill @e[type=text_display,tag=head_label]
 kill @e[type=text_display,tag=lobby_sign]
