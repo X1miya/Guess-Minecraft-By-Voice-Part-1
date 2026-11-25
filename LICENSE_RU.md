@@ -1,6 +1,6 @@
 Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0)
 
-Copyright (c) 2024-2026 X1miyaStudio (X1miya и участники)
+Copyright (c) 2023-2026 X1miyaStudio (X1miya и участники)
 
 ========================================================================
 УСЛОВИЯ ИСПОЛЬЗОВАНИЯ И ЛИЦЕНЗИЯ: УГАДАЙ МАЙНКРАФТЕРА ПО ГОЛОСУ: ЧАСТЬ 1
